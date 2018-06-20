@@ -1,0 +1,129 @@
+
+/* Left Frame (Hierarchy) */
+
+	/* Body and Container (Used to create scroll bars for frames) */
+
+	#leftBody {
+		width:100%; height:100%; margin-left:0px; margin-top:0px;
+	}
+	
+	#leftMainContainer {
+	height:100%;
+	width:100%;
+	margin:0;
+	}
+
+    .highlightItem
+    {
+        color:#eb8f00 !important;
+        font-weight:bold;
+    }
+	#leftMainBody {
+		padding:5px;
+	}
+	
+	#leftMainBody div{
+		white-space:nowrap;	font-family:Tahoma, Verdana, Arial, sans-serif; font-size:11px; 
+	}
+	
+	#leftMainBody div img {
+		border:none;
+	}
+	
+	.leftNameOff {
+		color:#000; background:#ffffff; /*visibility:hidden;*/
+	}
+	
+	.leftNameOff a {
+		display:inline; text-decoration:none; color:#000;
+	}
+
+	.leftNameOff a:hover {
+		color:#000; background:#c8e0f1;
+	}
+
+	.leftNameOn {
+		color:#000; background:#c8e0f1;
+	}
+
+	.leftNameOn a{
+		display:inline; color:#000; text-decoration:none; font-weight:bold;
+	}
+
+
+
+/* End of Left Frame (Hierarchy) */
+
+/* Right Frame (TimeSheet Entry List) */
+
+	#rightBody {
+		margin:0px; padding:0px; background:#f2f2f4;
+	}
+
+/* End of Right Frame (TimeSheet Entry List) */
+
+/* iframe */
+
+	#iframeBody {
+	 	margin:0px; padding:0px; background:#f2f2f4;overflow:auto;
+	}
+
+/* End of iframe */
+
+
+/* Bottom Frame */
+
+	#bottomBody {
+		width:100%; height:100%; margin:0px; padding:0px; background:#f2f2f4;
+	}
+	#bottomBody_Report {
+		width:100%; height:100%; margin:0px; padding:0px; background:#ffffff; 
+	}
+
+	#bottomMainContainer {
+		overflow:hidden; height:100%; width:100%; margin:0; position:absolute; top:0; left:0;
+	}
+	
+	#bottomSubHeaderRight_Historty {
+		height:25px; background:url(images/btmTitleBg.gif); color:#FFFFFF; font-size:11px; font-weight:bold; padding-left:35px; padding-right:10px; white-space:nowrap;
+	}
+	
+	#bottomSubHeaderRight_Historty {
+		text-align:right;
+	}
+	
+	.tableBlankCell
+	{
+		background: #c8e0f1;
+	}
+	
+	#bottomSubHeaderLeft, #bottomSubHeaderRight {
+		height:25px; background:url(images/btmTitleBg.gif); color:#FFFFFF; font-size:11px; font-weight:bold; white-space:nowrap;
+	}
+
+	#bottomSubHeaderLeft {
+		padding-left:35px; 
+	}
+	
+	#bottomSubHeaderRight {
+		text-align:right;
+	}
+	
+/* End of Bottom Frame */
+
+
+
+	.reportInput {
+		width:78px;font-size:11px; background:#ffffff; color:#333; border:1px solid #116699; padding-left:5px; 
+	}
+
+	.reportSelect {
+		width:120px;font-size:11px; background:#ffffff; color:#333; border:1px solid #116699; padding-left:5px; 
+	}
+    
+	.imgHeight{ 
+		height:27px; 
+		+*height:28px;/*IE-hack*/ 
+	}
+
+#leftMainContainer form{height:100%;width:100%;}
